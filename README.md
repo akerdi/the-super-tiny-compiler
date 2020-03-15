@@ -22,3 +22,9 @@ func main() {
 # Testing
 
         go test .
+        
+另有一篇Go 的compiler 翻译[repository](https://github.com/hazbo/the-super-tiny-compiler)
+
+我在全局中，使用指针式上下传递；
+
+那篇在Transformer 中，使用直观易懂的方式做了个取巧，不过我觉得还是俺这种更承接点吧。
