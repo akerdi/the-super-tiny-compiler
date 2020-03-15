@@ -23,6 +23,12 @@ func main() {
 
         go test .
         
+---
+
+---
+
+---
+        
 另有一篇Go 的compiler 翻译[repository](https://github.com/hazbo/the-super-tiny-compiler)
 
 我在全局中，使用指针式上下传递；
