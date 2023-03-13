@@ -5,7 +5,7 @@ func main() {
 	var inputString = "(add 2 (subtract 4 2))" // (add 200 (subtract 60 3))
 	tokens, err := compiler.Tokenizer(inputString)
 	if err != nil {
-		log.Fatal("tokens errorrr: ", err)
+		log.Fatal("tokens error: ", err)
 	}
 	ast := compiler.Parser(tokens)
 	newAst := compiler.Transformer(&ast)
@@ -15,7 +15,7 @@ func main() {
 	}
 
 	//output := compiler.Compiler("(add 2 (subtract 4 2))")
-	fmt.Println("$$$$$$$$$$$$$$$$$", output)
+	fmt.Println("output: ", output)
 }
 ```
 
